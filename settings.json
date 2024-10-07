@@ -1,0 +1,36 @@
+{
+    "background_color": [
+        0,
+        0,
+        0
+    ],
+    "font_color": [
+        255,
+        255,
+        255
+    ],
+    "transparency": 255,
+    "font_size": 12,
+    "currency": "eur",
+    "label_visibility": {
+        "Price": true,
+        "Change": true,
+        "Low": true,
+        "High": true,
+        "ATH": true,
+        "Market Cap": false,
+        "Volume": true,
+        "Mined": true,
+        "Remaining": true,
+        "Remaining %": true,
+        "Block Height": true,
+        "Hashrate": true,
+        "Unconfirmed TX": true,
+        "Fees": true
+    },
+    "position": [
+        1528,
+        335
+    ],
+    "largest_string_length": 14
+}
