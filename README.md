@@ -1,6 +1,6 @@
 # BiWi
 
-This widget is a simple and customizable Bitcoin data display tool for Linux users. It fetches real-time information about Bitcoin from an API, providing users with up-to-date data such as price, fees, market capitalization, and more.
+This widget is a simple and customizable Bitcoin data display tool for Linux users. It fetches real-time information about Bitcoin, providing users with up-to-date data such as price, fees, market capitalization, and more.
 
 The widget is highly customizable, allowing users to adjust font size, font color, background color, and transparency to suit their preferences. Its intuitive interface makes it easy to monitor Bitcoin information at a glance, enhancing the overall user experience.
 
