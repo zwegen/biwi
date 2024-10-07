@@ -42,3 +42,6 @@ You can customize which pieces of information are displayed by accessing the set
 ## License
 
 This project is licensed under the **GNU General Public License v3.0 (GPLv3)**. See the [LICENSE](https://www.gnu.org/licenses/gpl-3.0.html) file for details.
+
+  ![Main window](https://github.com/zwegen/biwi/blob/main/screenshots/biwi_screenshot_001.png?raw=true)
+
