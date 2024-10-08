@@ -6,7 +6,7 @@ The widget is highly customizable, allowing users to adjust font size, font colo
 
 ## Description
 
-This project implements a graphical user interface (GUI) to retrieve and display Bitcoin information. It utilizes the PyQt5 library for the GUI framework and accesses various Bitcoin APIs to fetch relevant data. The application allows users to view real-time Bitcoin metrics, such as price, market capitalization, and 24-hour highs and lows. Additionally, users can customize the display settings, including font size, color, background color, and widget transparency. The widget automatically updates the data at regular intervals, providing users with up-to-date information at their fingertips.
+This project implements a graphical user interface (GUI) to retrieve and display Bitcoin information. It utilizes the PyQt5 library for the GUI framework. The application allows users to view real-time Bitcoin metrics, such as price, market capitalization, and 24-hour highs and lows. Additionally, users can customize the display settings, including font size, color, background color, and widget transparency. The widget automatically updates the data at regular intervals, providing users with up-to-date information at their fingertips.
 
 ## Features
 
