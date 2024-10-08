@@ -42,8 +42,8 @@ class SettingsManager:
                     "Market Cap": True,  # Visibility of the Market Cap label
                     "Volume": True,  # Visibility of the Volume label
                     "Mined": True,  # Visibility of the Mined label
-                    "Remaining": True,  # Visibility of the Remaining Bitcoins label
-                    "Remaining %": True,  # Visibility of the Remaining percentage label
+                    "Unmined": True,  # Visibility of the Remaining Bitcoins label
+                    "Unmined %": True,  # Visibility of the Remaining percentage label
                     "Block Height": True,  # Visibility of the Block Height label
                     "Hashrate": True,  # Visibility of the Hashrate label
                     "Unconfirmed TX": True,  # Visibility of the Unconfirmed Transactions label
@@ -51,4 +51,3 @@ class SettingsManager:
                     "Fees": True,  # Visibility of the Fees label
                 }
             }
-
