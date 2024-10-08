@@ -22,7 +22,7 @@ class UIComponents(QWidget):
         for label_name in [
             "Price", "Change", "Low", "High",  # Removed (24h)
             "ATH", "Market Cap", "Volume", "Mined", 
-            "Remaining", "Remaining %", "Block Height", 
+            "Unmined", "Unmined %", "Block Height", 
             "Hashrate", "Unconfirmed TX", "Fees"
         ]:
             # Create a QLabel for each output label
@@ -51,4 +51,3 @@ class UIComponents(QWidget):
             label = self.output_labels[label_name]
             label.setText(text)
             label.setMinimumSize(0, 0)  # Remove minimum size constraints to allow window resizing
-
