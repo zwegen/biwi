@@ -30,7 +30,7 @@ def process_data(data):
         "formatted_market_cap": data['formatted_market_cap'],
         "formatted_volume": data['formatted_volume'],     # Change the key
         "formatted_mined": data['formatted_circulating_supply'],
-        "Remaining": data['formatted_missing_bitcoins'],
+        "Unmined": data['formatted_missing_bitcoins'],
         "block_height": data['block_height'],
         "hashrate": data['hashrate'],
         "unconfirmed_tx": data['unconfirmed_tx'],
@@ -60,8 +60,8 @@ def process_data(data):
         "Market Cap": f"Market Cap      : {data['formatted_market_cap']:>{max_length}} {data['currency_symbol']}",
         "Volume": f"Volume (24h)    : {data['formatted_volume']:>{max_length}} {data['currency_symbol']}",   # Change the key
         "Mined": f"Mined ₿         : {data['formatted_circulating_supply']:>{max_length}} \u20bf",
-        "Remaining": f"Unmined ₿       : {data['formatted_missing_bitcoins']:>{max_length}} \u20bf",
-        "Remaining %": f"Unmined ₿ (%)   : {data['percentage_missing']:>{max_length}.3f} %".replace('.', ','),
+        "Unmined": f"Unmined ₿       : {data['formatted_missing_bitcoins']:>{max_length}} \u20bf",
+        "Unmined %": f"Unmined ₿ (%)   : {data['percentage_missing']:>{max_length}.3f} %".replace('.', ','),
         "Block Height": f"Block Height    : {data['block_height']:>{max_length}}",
         "Hashrate": f"Hashrate (EH/s) : {data['hashrate']:>{max_length}}",
         "Unconfirmed TX": f"Unconfirmed TX  : {data['unconfirmed_tx']:>{max_length}}",
@@ -103,7 +103,6 @@ def handle_error():
     return {label: "Error retrieving Bitcoin data." for label in [
         "Price", "Change", "High", "Low",  # Change the key
         "Market Cap", "Volume", "Mined",  # Change the key
-        "Remaining", "Remaining %", "Block Height", 
+        "Unmined", "Unmined %", "Block Height", 
         "Hashrate", "Unconfirmed TX", "ATH", "Fees"
     ]}
-
